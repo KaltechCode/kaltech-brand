@@ -36,15 +36,10 @@ const ServiceMain = () => {
       hoverBtn();
       charAnimation();
       fadeAnimation();
+      servicePanel();
     }, 100);
     return () => clearTimeout(timer);
   });
-  useEffect(() => {
-    servicePanel();
-  }, []);
-  useLayoutEffect(() => {
-    servicePanel();
-  }, [hasRendered]);
 
   const handleOpen = () => {
     setOpenForm(false);
