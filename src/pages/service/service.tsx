@@ -1,6 +1,6 @@
 "use client";
 import { gsap } from "gsap";
-import React, { useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { useGSAP } from "@gsap/react";
 import useScrollSmooth, { handleAnchorClicks } from "@/hooks/use-scroll-smooth";
 import { ScrollSmoother, ScrollTrigger, SplitText } from "@/plugins";
@@ -35,11 +35,16 @@ const ServiceMain = () => {
       hoverBtn();
       charAnimation();
       fadeAnimation();
-      servicePanel();
     }, 100);
     return () => clearTimeout(timer);
   });
 
+  useLayoutEffect(() => {
+    const timer = setTimeout(() => {
+      servicePanel();
+    }, 100);
+    return () => clearTimeout(timer);
+  }, []);
   const handleOpen = () => {
     setOpenForm(false);
   };
