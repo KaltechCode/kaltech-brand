@@ -43,7 +43,7 @@ const ServiceMain = () => {
     servicePanel();
   }, []);
   useLayoutEffect(() => {
-   servicePanelservicePanel
+    servicePanel();
   }, [hasRendered]);
 
   const handleOpen = () => {
