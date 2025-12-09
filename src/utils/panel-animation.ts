@@ -330,13 +330,6 @@ function servicePanel() {
       });
     });
   });
-
-  window.addEventListener("load", () => {
-    setTimeout(() => {
-      console.log("Delayed refresh after load.");
-      ScrollTrigger.refresh();
-    }, 50); // Try 50ms or 100ms
-  });
 }
 
 export { panelOneAnimation, panelTwoAnimation, studioPanel, servicePanel };
