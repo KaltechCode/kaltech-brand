@@ -144,7 +144,7 @@ export default function ServiceSix() {
                           ))}
                         </ul>
 
-                        <div className="tp-projct-5-2-btn-box d-none justify-content-end sv-six-btn-sm">
+                        {/* <div className="tp-projct-5-2-btn-box d-none justify-content-end sv-six-btn-sm">
                           <div className="tp-hover-btn-wrapper">
                             <Link
                               className="custom-circle tp-hover-btn-item tp-hover-btn"
@@ -160,7 +160,7 @@ export default function ServiceSix() {
                             </Link>
                             {/* </div> */}
                           </div>
-                        </div>
+                        </div> */}
 
                         <div className="sv-six-btn-lg">
                           <SecondaryCircleBtn

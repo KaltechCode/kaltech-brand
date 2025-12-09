@@ -40,42 +40,16 @@ const ServiceMain = () => {
     return () => clearTimeout(timer);
   });
   useEffect(() => {
-    // ******This will set the state of hasRendered when the page render so as to keep track of the rendering steps *******
-    setHasRendered(true);
+    servicePanel();
   }, []);
   useLayoutEffect(() => {
-    if (hasRendered) {
-      if (!(gsap as any)._gsap || !(gsap as any).plugins?.ScrollTrigger) {
-        try {
-          gsap.registerPlugin(ScrollTrigger);
-        } catch {}
-      }
-      const sv = gsap.matchMedia();
-      const tl = gsap.timeline();
-      sv.add("(min-width: 300px)", () => {
-        // const isLarge = window.matchMedia("(min-width: 1500px)").matches;
-        const projectpanelss = document.querySelectorAll(".project-panel-2");
-        projectpanelss.forEach((section) => {
-          tl.to(section, {
-            scrollTrigger: {
-              trigger: section,
-              // pin: isLarge ? false : section,
-              pin: section,
-              scrub: 1,
-              start: "top top",
-              end: "bottom 100%",
-              endTrigger: ".project-panel-area-2",
-              pinSpacing: false,
-            },
-          });
-        });
-      });
-    }
+   servicePanelservicePanel
   }, [hasRendered]);
 
   const handleOpen = () => {
     setOpenForm(false);
   };
+
   return (
     <Wrapper>
       {/* header area start */}
