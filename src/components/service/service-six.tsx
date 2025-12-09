@@ -153,14 +153,14 @@ export default function ServiceSix() {
                               {/* <span className="tp-btn-circle-text">
                         About <br /> Us
                       </span> */}
-                              <i className="custom-circle-icon">
+                        {/* <i className="custom-circle-icon">
                                 <UpArrow />
                               </i>
                               <i className="tp-btn-circle-dot"></i>
-                            </Link>
-                            {/* </div> */}
-                          </div>
-                        </div> */}
+                            </Link> */}
+                        {/* </div> */}
+                        {/* </div>
+                        </div>  */}
 
                         <div className="sv-six-btn-lg">
                           <SecondaryCircleBtn
