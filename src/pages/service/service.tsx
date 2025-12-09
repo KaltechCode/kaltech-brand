@@ -30,12 +30,12 @@ const ServiceMain = () => {
 
   useGSAP(() => {
     const timer = setTimeout(() => {
-      charAnimation();
-      fadeAnimation();
+      handleAnchorClicks();
       ctaAnimation();
       hoverBtn();
+      charAnimation();
+      fadeAnimation();
       servicePanel();
-      handleAnchorClicks();
     }, 100);
     return () => clearTimeout(timer);
   });

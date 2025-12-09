@@ -332,8 +332,10 @@ function servicePanel() {
   });
 
   window.addEventListener("load", () => {
-    console.log("Window loaded, refreshing ScrollTriggers.");
-    ScrollTrigger.refresh();
+    setTimeout(() => {
+      console.log("Delayed refresh after load.");
+      ScrollTrigger.refresh();
+    }, 50); // Try 50ms or 100ms
   });
 }
 
