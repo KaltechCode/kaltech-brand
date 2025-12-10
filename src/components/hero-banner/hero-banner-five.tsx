@@ -2,8 +2,9 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { UpArrow } from "../svg";
-import p_img_1 from "@/assets/img/home-05/project/project-2.jpg";
-import p_img_2 from "@/assets/img/home-05/project/project-3.jpg";
+import p_img_1 from "@/assets/img/custom/portfolio/KALTECH_LANDSCAPE_PORTFOLIO-01.png";
+import p_img_2 from "@/assets/img/custom/portfolio/KALTECH_LANDSCAPE_PORTFOLIO-02.png";
+import p_img_3 from "@/assets/img/custom/portfolio/KALTECH_LANDSCAPE_PORTFOLIO-03.png";
 
 export default function HeroBannerFive() {
   return (
@@ -35,13 +36,14 @@ export default function HeroBannerFive() {
             </div>
             <div className="tp-project-5-thumb-wrap d-flex align-items-center">
               <div className="tp-project-5-thumb">
-                <Link href="/portfolio-details-1">
-                  <Image
-                    src={p_img_1}
-                    alt="project-img"
-                    style={{ height: "auto" }}
-                  />
-                </Link>
+                {/* <Link href="/blizservices.com" target="_blank"> */}
+                <Image
+                  src={p_img_1}
+                  alt="project-img"
+                  height={100}
+                  width={100}
+                />
+                {/* </Link> */}
               </div>
               <div className="tp-project-5-thumb">
                 {/* <div className="tp-project-5-video">
@@ -58,20 +60,24 @@ export default function HeroBannerFive() {
                     />
                   </video>
                 </div> */}
-                <Link href="/portfolio-details-1">
-                  <Image
-                    src={p_img_1}
-                    alt="project-img"
-                    style={{ height: "auto" }}
-                  />
-                </Link>
+                {/* <Link href="/joptiman.com"> */}
+                <Image
+                  src={p_img_2}
+                  alt="project-img"
+                  objectFit="cover"
+                  height={100}
+                  width={100}
+                />
+                {/* </Link> */}
               </div>
               <div className="tp-project-5-thumb">
-                <Link href="/portfolio-details-1">
+                <Link href="/blizservices.com">
                   <Image
-                    src={p_img_2}
+                    src={p_img_3}
                     alt="project-img"
-                    style={{ height: "auto" }}
+                    height={100}
+                    width={100}
+                    // style={{ width: "400px" }}
                   />
                 </Link>
               </div>

@@ -289,6 +289,7 @@ export default function InstagramArea() {
             textAlign="center" 
             onLetterAnimationComplete={handleAnimationComplete}
           /> */}
+          <h3>Are You </h3>
         </motion.div>
 
         {/* <div className={`tp-instagram-thumb-inner-y d-none d-xl-block`}>

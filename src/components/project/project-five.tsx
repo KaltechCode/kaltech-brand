@@ -7,9 +7,9 @@ import Link from "next/link";
 import p_img_1 from "@/assets/img/custom/portfolio/Portrait_Portfolio_USFJ.webp";
 import p_img_2 from "@/assets/img/custom/portfolio/Portrait_Portfolio_Bliz.webp";
 import p_img_3 from "@/assets/img/custom/portfolio/Portrait_Portfolio_JOptiman.webp";
-import p_img_4 from "@/assets/img/home-05/project/project-7.jpg";
-import p_img_5 from "@/assets/img/home-05/project/project-8.jpg";
-import p_img_6 from "@/assets/img/home-05/project/project-9.jpg";
+import p_img_4 from "@/assets/img/custom/portfolio/Portrait_Portfolio_Elta_Healthcare.webp";
+import p_img_5 from "@/assets/img/custom/portfolio/Portrait_Portfolio_WOVD.webp";
+import p_img_6 from "@/assets/img/custom/portfolio/Portrait_Portfolio_Luxury_living_Lifstyle.webp";
 
 const project_data = [
   {
@@ -35,21 +35,21 @@ const project_data = [
   },
   {
     id: 4,
-    title: "The Stage",
+    title: "Elta Healthcare",
     category: "Branding",
     img: p_img_4,
     year: 2024,
   },
   {
     id: 5,
-    title: "Big dream",
+    title: "WOVD",
     category: "Branding",
     img: p_img_5,
     year: 2024,
   },
   {
     id: 6,
-    title: "Sed Lectus",
+    title: "living Lifstyle",
     category: "Concept",
     img: p_img_6,
     year: 2024,
