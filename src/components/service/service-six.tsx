@@ -173,14 +173,14 @@ export default function ServiceSix() {
                         </div>
                       </div>
 
-                      <Link
+                      {/* <Link
                         className="tp-btn-black-2 tp_fade_bottom"
                         href="/about-us"
                         style={{ background: "#b08500" }}
                       >
                         Get in Touch
                         <span className="p-relative"></span>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
