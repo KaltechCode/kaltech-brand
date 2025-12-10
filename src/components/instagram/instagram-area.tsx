@@ -23,7 +23,7 @@ import { useMediaQuery } from "@/utils/getMedis";
 import Folder from "../react_bit/folder/Folder";
 import ShapeBlur from "../react_bit/shapeBlur/ShapeBlur";
 import RotatingText from "../react_bit/Rotating/RotatingText";
-// import Ribbons from "../react_bit/Ribbon/Ribbons";
+import Ribbons from "../react_bit/Ribbon/Ribbons";
 
 export default function InstagramArea() {
   // instagram images
@@ -196,16 +196,14 @@ export default function InstagramArea() {
               overflow: "hidden",
             }}
           >
-            {/* <Ribbons
+            <Ribbons
               baseThickness={30}
               colors={["#b08500", "#fff"]}
               speedMultiplier={0.5}
               maxAge={700}
               enableFade={true}
               enableShaderEffect={true}
-              
-    "ogl": "^1.0.11",
-            /> */}
+            />
           </div>
         </motion.div>
 
