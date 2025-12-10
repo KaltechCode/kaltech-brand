@@ -203,6 +203,8 @@ export default function InstagramArea() {
               maxAge={700}
               enableFade={true}
               enableShaderEffect={true}
+              
+    "ogl": "^1.0.11",
             /> */}
           </div>
         </motion.div>
