@@ -36,19 +36,11 @@ const ServiceMain = () => {
       hoverBtn();
       charAnimation();
       fadeAnimation();
+      servicePanel();
     }, 100);
     return () => clearTimeout(timer);
   });
 
-  const containerRef = useRef();
-
-  useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-      servicePanel();
-    }, containerRef);
-
-    return () => ctx.revert();
-  }, []);
   const handleOpen = () => {
     setOpenForm(false);
   };
