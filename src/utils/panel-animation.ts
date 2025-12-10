@@ -333,7 +333,7 @@ function servicePanel() {
 
   window.addEventListener("load", () => {
     console.log("Window loaded, refreshing ScrollTriggers.");
-    ScrollTrigger.refresh();
+    ScrollTrigger.refresh(true);
   });
 }
 

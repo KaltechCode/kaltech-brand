@@ -15,7 +15,7 @@ import PrimaryBtn, { SecondaryCircleBtn } from "../button/button";
 const service_data = [
   {
     id: 1,
-    img: ser_img_1,
+    img: "@/assets/img/custom/services/Kaltech-Development.webp",
     subtitle: "Kaltech Consultancy",
     title: "DEVELOPMENT",
     text: "We build scalable and efficient web and mobile applications tailored to your business needs.",
@@ -30,7 +30,7 @@ const service_data = [
   },
   {
     id: 2,
-    img: ser_img_2,
+    img: "@/assets/img/custom/services/kaltech-marketing-cover.png",
     subtitle: "Kaltech Consultancy",
     title: "MARKETING",
     text: "Our marketing services are designed to help businesses reach their target audience effectively.",
@@ -43,7 +43,7 @@ const service_data = [
   },
   {
     id: 3,
-    img: ser_img_3,
+    img: "@/assets/img/custom/services/Kaltech-Branding-.webp",
     subtitle: "Kaltech Consultancy",
     title: "BRANDING",
     text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
@@ -58,7 +58,7 @@ const service_data = [
 
   {
     id: 4,
-    img: ser_img_4,
+    img: "@/assets/img/custom/services/Kaltech-Data-Analytics.png",
     subtitle: "Kaltech Consultancy",
     title: "DATA ANALYTICS",
     text: "Unlock the power of your data with our comprehensive data analytics services. We help businesses transform raw data into actionable insights, enabling informed decision-making and strategic growth.",
@@ -72,9 +72,9 @@ const service_data = [
   },
 ];
 
-export default function ServiceSix() {
+export default function ServiceSix({ ref }: { ref: any }) {
   return (
-    <div className="sv-service-area project-panel-area-2">
+    <div className="sv-service-area project-panel-area-2" ref={ref}>
       <div className="container-fluid p-0">
         {service_data.map((item) => (
           <div
@@ -89,7 +89,7 @@ export default function ServiceSix() {
                 // style={{ display: "block" }}
               >
                 <div className="sv-service-thumb">
-                  <Image
+                  <img
                     src={item.img}
                     alt="service-img"
                     style={{ height: "100%" }}
