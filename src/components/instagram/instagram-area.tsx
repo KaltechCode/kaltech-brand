@@ -18,7 +18,7 @@ import inst_5 from "@/assets/img/custom/whoWeAre/Katech-Kumisfoundatiion.webp";
 import inst_6 from "@/assets/img/custom/whoWeAre/Kaltech-logo.webp";
 import inst_7 from "@/assets/img/custom/whoWeAre/Kaltech-are-you.webp";
 
-import SplitText from "@/components/react_bit/splitText/SplitText";
+// import SplitText from "@/components/react_bit/splitText/SplitText";
 import { useMediaQuery } from "@/utils/getMedis";
 import Folder from "../react_bit/folder/Folder";
 import ShapeBlur from "../react_bit/shapeBlur/ShapeBlur";
@@ -277,7 +277,7 @@ export default function InstagramArea() {
             alt="inst-img"
             style={{ height: "100%", width: "100%" }}
           /> */}
-          <SplitText
+          {/* <SplitText
             text="Are You"
             className=" font-semibold text-center py-4 split-text"
             delay={150}
@@ -288,9 +288,9 @@ export default function InstagramArea() {
             to={{ opacity: 1, y: 0 }}
             threshold={0.1}
             rootMargin="-100px"
-            textAlign="center"
-            // onLetterAnimationComplete={handleAnimationComplete}
-          />
+            textAlign="center" 
+            onLetterAnimationComplete={handleAnimationComplete}
+          /> */}
         </motion.div>
 
         {/* <div className={`tp-instagram-thumb-inner-y d-none d-xl-block`}>
