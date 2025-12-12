@@ -35,7 +35,7 @@ export default function BigText({ cls = "" }: IProps) {
     },
 
     {
-      title: "✔ Constant Support & Maintenance",
+      title: "✔  Constant Support & Maintenance",
       content:
         "We constantly keep your business systems updated, optimized, and secure.",
     },
@@ -48,7 +48,9 @@ export default function BigText({ cls = "" }: IProps) {
           <div className="">
             {whyChooseUs.map((item, index) => (
               <div className="" key={index}>
-                <h6>{item.title}</h6>
+                <h4 className="font-oxanium" style={{ fontWeight: 600 }}>
+                  {item.title}
+                </h4>
                 <p>{item.content}</p>
               </div>
             ))}

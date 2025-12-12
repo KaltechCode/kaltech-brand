@@ -17,7 +17,7 @@ import FooterFour from "@/layouts/footers/footer-four";
 // animation
 import { charAnimation, titleAnimation } from "@/utils/title-animation";
 
-const Analytic = () => {
+const DataAnalytic = () => {
   useScrollSmooth();
 
   useGSAP(() => {
@@ -52,4 +52,4 @@ const Analytic = () => {
   );
 };
 
-export default Analytic;
+export default DataAnalytic;

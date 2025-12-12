@@ -11,7 +11,7 @@ import localFont from "next/font/local";
 import { ThemeProvider } from "next-themes";
 import "./globals.scss";
 
-const gallery = localFont({
+const oxanium = localFont({
   src: [
     {
       path: "../../public/assets/fonts/Oxanium-ExtraBold.ttf",
@@ -29,7 +29,7 @@ const gallery = localFont({
       style: "normal",
     },
   ],
-  variable: "--tp-ff-gallery",
+  variable: "--tp-ff-oxanium",
 });
 
 const syne_heading = localFont({
@@ -102,7 +102,7 @@ export default function RootLayout({
       <body
         id="body"
         suppressHydrationWarning={true}
-        className={`${gallery.variable} ${aladin.variable} ${syne_body.variable} ${syne_heading.variable} ${syne_p.variable} ${syne.variable} ${big_shoulders.variable} ${marcellus.variable}`}
+        className={`${oxanium.variable} ${aladin.variable} ${syne_body.variable} ${syne_heading.variable} ${syne_p.variable} ${syne.variable} ${big_shoulders.variable} ${marcellus.variable}`}
       >
         <ThemeProvider defaultTheme="light">{children}</ThemeProvider>
       </body>

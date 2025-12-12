@@ -232,11 +232,11 @@ h3 {
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h6 {
@@ -246,6 +246,10 @@ h6 {
 ul {
   margin: 0px;
   padding: 0px;
+}
+
+.font-oxanium {
+  font-family: var(--tp-ff-oxanium) !important;
 }
 
 .table {

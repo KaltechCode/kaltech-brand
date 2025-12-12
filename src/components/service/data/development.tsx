@@ -150,7 +150,7 @@ export default function Development() {
   const [activeService, setActiveService] = React.useState<ServiceKey>("web");
 
   return (
-    <div className="service-details__area service-details__space pt-200 pb-120">
+    <div className="service-details__area service-details__space pt-100 pb-120">
       <div className="container">
         <div className="row">
           <div className="col-xl-12">
@@ -240,7 +240,7 @@ export default function Development() {
           <div className="col-xl-5 col-lg-5">
             <div className="service-details__right-wrap fix p-relative">
               <div className="service-details__rotate-text">
-                <span>Full list of services</span>
+                <span>Development services</span>
               </div>
               <div className="service-details__right-category">
                 {developmentData.services.map((service, index) => (
@@ -259,9 +259,12 @@ export default function Development() {
               </div>
 
               <div className="service-details__right-text-box">
-                <h3 className="pb-20" style={{ letterSpacing: "1.2px" }}>
+                <h4
+                  className="pb-20 font-oxanium"
+                  style={{ letterSpacing: "1.2px", fontWeight: 600 }}
+                >
                   1. {developmentData.sidebarContent[activeService].title}
-                </h3>
+                </h4>
                 <div className="service-details__fea-list">
                   <p>
                     {
@@ -269,9 +272,9 @@ export default function Development() {
                         .description_1
                     }
                   </p>
-                  <h5 style={{ fontWeight: 700 }}>
+                  <h4 style={{ fontWeight: 700 }}>
                     {developmentData.sidebarContent[activeService].subTitle_1}
-                  </h5>
+                  </h4>
                   <ul style={{ marginTop: 20 }}>
                     {developmentData.features.map((feature, index) => (
                       <li key={index}>{feature}</li>

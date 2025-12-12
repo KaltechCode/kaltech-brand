@@ -145,7 +145,7 @@ export default function Branding() {
   const [activeService, setActiveService] = React.useState<ServiceKey>("brand");
 
   return (
-    <div className="service-details__area service-details__space pt-200 pb-120">
+    <div className="service-details__area service-details__space pt-100 pb-120">
       <div className="container">
         <div className="row">
           <div className="col-xl-12">
@@ -237,7 +237,7 @@ export default function Branding() {
           <div className="col-xl-5 col-lg-5">
             <div className="service-details__right-wrap fix p-relative">
               <div className="service-details__rotate-text">
-                <span>Full list of services</span>
+                <span>Branding services</span>
               </div>
               <div className="service-details__right-category">
                 {brandingData.services.map((service, index) => (
@@ -255,18 +255,19 @@ export default function Branding() {
                 ))}
               </div>
               <div className="service-details__right-text-box">
-                <h3 className="pb-20" style={{ letterSpacing: "1.2px" }}>
-                  {brandingData.sidebarContent[
-                    activeService
-                  ].title.toUpperCase()}
+                <h3
+                  className="pb-20 font-oxanium"
+                  style={{ letterSpacing: "1.2px" }}
+                >
+                  {brandingData.sidebarContent[activeService].title}
                 </h3>
                 <p className="mb-20">
                   {brandingData.sidebarContent[activeService].description}
                 </p>
                 <div className="service-details__fea-list">
-                  <h3>
+                  <h4>
                     {brandingData.sidebarContent[activeService].listTitle}
-                  </h3>
+                  </h4>
 
                   <ul>
                     {brandingData.sidebarContent[activeService].list.map(

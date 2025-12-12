@@ -8,7 +8,7 @@ import p_img_3 from "@/assets/img/custom/portfolio/KALTECH_LANDSCAPE_PORTFOLIO-0
 
 export default function HeroBannerFive() {
   return (
-    <div className="tp-hero-5-area tp-hero-5-space fix">
+    <div className="tp-hero-5-area py-12 pb-12">
       <div className="container container-1480">
         <div className="col-xl-12">
           <div className="tp-hero-5-content-box">
@@ -16,70 +16,62 @@ export default function HeroBannerFive() {
               className="tp-hero-5-title tp-char-animation"
               style={{ letterSpacing: "1px" }}
             >
-              Creative + <span style={{ color: "#b08500" }}>Agency</span>
+              Creative + <span style={{ color: "#b08500" }}>Portfolio</span>
             </h4>
             <p className="" style={{ textAlign: "center" }}>
               {"We're"} an innovative global ui/ux design agency building
               high-end products <br />
               and experiences that grow your business exponentially.
             </p>
-            {/* <Link className="tp-btn-black-square" href="/portfolio-grid-col-2">
-              View Our Works
-              <span>
-                <UpArrow />
-              </span>
-            </Link> */}
           </div>
-          <div className="tp-project-5-wrap d-flex align-items-start justify-content-center justify-content-md-end">
-            <div className="tp-project-5-text">
+          <div
+            className="tp-project-5-wrap "
+            // style={{
+            //   display: "grid",
+            //   gridTemplateColumns: "1fr 1fr 1fr 1fr",
+            //   gap: "10px",
+            //   alignItems: "center",
+            // }}
+          >
+            <div
+              className="tp-project-5-text"
+              // style={{ gridColumn: "span 1", height: "100%" }}
+            >
               <span>RECENT PROJECT</span>
             </div>
-            <div className="tp-project-5-thumb-wrap d-flex align-items-center">
+            <div
+              className="tp-project-5-thumb-wrap"
+              // style={{
+              //   gridColumn: "span 3",
+              //   display: "grid",
+              //   gridTemplateColumns: "1fr 1fr 1fr",
+              //   gap: "10px",
+              //   marginTop: "20px",
+              // }}
+            >
+              <div
+                className="tp-project-5-thumb"
+                // style={{ height: 200, width: "100%" }}
+              >
+                {/* <Link href="/blizservices.com" target="_blank"> */}
+                <Image src={p_img_1} alt="project-img" objectFit="cover" />
+              </div>
+
               <div className="tp-project-5-thumb">
                 {/* <Link href="/blizservices.com" target="_blank"> */}
-                <Image
-                  src={p_img_1}
-                  alt="project-img"
-                  height={100}
-                  width={100}
-                />
-                {/* </Link> */}
+                <Image src={p_img_2} alt="project-img" objectFit="cover" />
               </div>
-              <div className="tp-project-5-thumb">
-                {/* <div className="tp-project-5-video">
-                  <video
-                    className="play-video"
-                    loop={true}
-                    muted={true}
-                    autoPlay={true}
-                    playsInline={true}
-                  >
-                    <source
-                      src="https://html.hixstudio.net/videos/liko/liko-2.mp4"
-                      type="video/mp4"
-                    />
-                  </video>
-                </div> */}
-                {/* <Link href="/joptiman.com"> */}
+              <div
+                className="tp-project-5-thumb"
+                // style={{ height: 250, width: "100%" }}
+              >
+                {/* <Link href="/blizservices.com" target="_blank"> */}
                 <Image
-                  src={p_img_2}
+                  src={p_img_3}
                   alt="project-img"
                   objectFit="cover"
-                  height={100}
-                  width={100}
+                  style={{ height: "100%", width: "100%" }}
                 />
-                {/* </Link> */}
-              </div>
-              <div className="tp-project-5-thumb">
-                <Link href="/blizservices.com">
-                  <Image
-                    src={p_img_3}
-                    alt="project-img"
-                    height={100}
-                    width={100}
-                    // style={{ width: "400px" }}
-                  />
-                </Link>
               </div>
             </div>
           </div>
