@@ -150,9 +150,9 @@ export default function Development() {
   const [activeService, setActiveService] = React.useState<ServiceKey>("web");
 
   return (
-    <div className="service-details__area service-details__space pt-100 pb-120">
-      <div className="container">
-        <div className="row">
+    <div className="service-details__area pt-100 pb-120">
+      <div className="container comtainer-1480">
+        <div className="" style={{ width: "100%" }}>
           <div className="col-xl-12">
             <div className="service-details__title-box mb-70">
               <h4

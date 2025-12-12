@@ -662,8 +662,6 @@
 }
 .tp-project-5 {
   &-wrap {
-    margin-right: -3%;
-
     @media #{$xs} {
       flex-wrap: wrap;
       margin-right: 0;
@@ -775,6 +773,12 @@
 
     @media #{$xs} {
       font-size: 85px;
+    }
+    & .container {
+      max-width: 100%;
+      @media #{$xxxl, $xxxxl} {
+        max-width: 1480px;
+      }
     }
   }
 

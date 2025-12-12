@@ -712,7 +712,6 @@
     }
   }
   &-category {
-    padding-left: 100px;
     @media #{$lg,$md} {
       padding-left: 0;
     }
@@ -739,8 +738,8 @@
     }
   }
   &-text {
-    padding-left: 70px;
-    padding-right: 110px;
+    // padding-left: 70px;
+    // padding-right: 110px;
     @media #{$xxl} {
       padding-left: 0;
     }

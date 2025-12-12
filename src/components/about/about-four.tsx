@@ -12,12 +12,11 @@ export default function AboutFour() {
           <div className="col-xl-12">
             <div className="tp-about-5-title-box pb-90">
               <h4 className="section-title p-relative tp_fade_bottom">
-                <span className="tp-about-5-subtitle tp_fade_left">
+                {/* <span className="tp-about-5-subtitle tp_fade_left">
                   140+ projects closed
-                </span>
-                <span className="text-space"></span>
-                As a digital designer, I <br /> focus on producing top notch and
-                impactful digital experiences.
+                </span> */}
+                <span className="text-space font-come"></span>
+                Driving Innovation, Designing Excellence, Delivering Results{" "}
               </h4>
             </div>
           </div>
@@ -41,19 +40,11 @@ export default function AboutFour() {
           <div className="col-xl-6 col-lg-6 col-md-6">
             <div className="tp-about-5-text">
               <p className="mb-30 tp_fade_bottom">
-                Together, we construct tailored marketing campaigns that engage
-                and resonate with customers on a deeper level. Adaptiv’s
-                approach amplifies brand awareness and loyalty and paves the way
-                for sustainable business growth and success.
-              </p>
-              <p className="mb-30 tp_fade_bottom">
-                We believe that understanding and solving clients issues is the
-                key to success. Now {"It's"}
-                your time to overcome challenges, face fresh perspective and
-                realize full potential.
-              </p>
-              <p className="tp_fade_bottom">
-                Based on strong expertise and a battle-tested business.!
+                Our work reflect our commitment to quality, creativity, and
+                innovation. We partner with businesses, nonprofits, and
+                entrepreneurs to develop business workflows and business
+                solutions that elevate brands, streamline operations, and
+                promote business growth.
               </p>
             </div>
           </div>

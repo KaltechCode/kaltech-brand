@@ -1260,6 +1260,14 @@
       }
     }
   }
+  &__area {
+    & .container {
+      max-width: 100%;
+      @media #{$xxxl, $xxxxl} {
+        max-width: 1480px;
+      }
+    }
+  }
 }
 .tp-studio-service {
   &-ptb {

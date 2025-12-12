@@ -535,12 +535,12 @@
     }
   }
   &-title {
-    font-size: 190px;
+    font-size: clamp(50px, 6vw + 1.5rem, 140px);
     font-weight: 600;
     line-height: 1;
     letter-spacing: 1px;
     color: var(--tp-common-black);
-    font-family: var(--tp-ff-body);
+    font-family: var(--tp-ff-heading);
     white-space: nowrap;
     margin-bottom: 20px;
     @media #{$xl} {

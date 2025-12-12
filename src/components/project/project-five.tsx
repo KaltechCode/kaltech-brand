@@ -67,7 +67,7 @@ export default function ProjectFive({ style_2 = false }: IProps) {
         style_2 ? "" : "tp-project-5-2-pt black-bg"
       }`}
     >
-      <div className="container">
+      <div className="container container-1480">
         <div className="row gx-140">
           {project_data.map((item) => (
             <div key={item.id} className="col-xl-6 col-lg-6 col-md-6">

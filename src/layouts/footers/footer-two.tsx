@@ -86,7 +86,7 @@ export default function FooterTwo({
                       href="https://www.google.com/maps/@23.8223596,90.3656686,15z?entry=ttu"
                       target="_blank"
                     >
-                      Brookestone Dr, Elizabethtown, KY 42701, Kentucky, USA
+                      5016 Centennial Blvd. Suite 200, Nashville, TN, 37209. USA
                     </a>
                   </span>
                 </div>

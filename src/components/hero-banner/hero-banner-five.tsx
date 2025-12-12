@@ -10,18 +10,23 @@ export default function HeroBannerFive() {
   return (
     <div className="tp-hero-5-area py-12 pb-12">
       <div className="container container-1480">
-        <div className="col-xl-12">
-          <div className="tp-hero-5-content-box">
-            <h4
+        <div className="" style={{ width: "100%" }}>
+          <div className="tp-hero-5-content-box" style={{ overflow: "hidden" }}>
+            <h3
               className="tp-hero-5-title tp-char-animation"
-              style={{ letterSpacing: "1px" }}
+              style={{
+                letterSpacing: "1px",
+                fontSize: "clamp(50px, 6vw + 1.5rem, 120px)",
+              }}
             >
-              Creative + <span style={{ color: "#b08500" }}>Portfolio</span>
-            </h4>
+              Creative <span className="font-oxanium">+ </span>
+              <span style={{ color: "#b08500" }}>Portfolio</span>
+            </h3>
             <p className="" style={{ textAlign: "center" }}>
-              {"We're"} an innovative global ui/ux design agency building
-              high-end products <br />
-              and experiences that grow your business exponentially.
+              {"We're"} Our portfolio showcases a diverse collection of projects
+              across web development, branding, .
+              <br />
+              marketing, content creation, and software solutions
             </p>
           </div>
           <div
